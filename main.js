@@ -8,6 +8,7 @@ simply.on('singleClick', 'up', function(e) {
  
   count += 1;
   simply.title(kek[1]);
+    simply.text('kek');
   localStorage.setItem('count', count);
 });
 simply.on('singleClick', 'down', function(e) {
@@ -15,6 +16,7 @@ simply.on('singleClick', 'down', function(e) {
   if(count > 0) {
     count -= 1;
     simply.title(kek[2]);
+    simply.text('lol');
     localStorage.setItem('count', count);
   }
 });
