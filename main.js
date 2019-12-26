@@ -10,7 +10,7 @@ simply.on('singleClick', 'up', function(e) {
 });
 simply.on('singleClick', 'down', function(e) {
   // simply.subtitle('You pressed the ' + e.button + ' button!');
-  if count > 0 {
+  if(count > 0) {
     count -= 1
   }
   simply.title(count)
