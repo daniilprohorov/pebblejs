@@ -7,14 +7,14 @@ simply.on('singleClick', 'up', function(e) {
   // simply.subtitle('You pressed the ' + e.button + ' button!');
  
   count += 1;
-  simply.title(kek[count]);
+  simply.title(kek[1]);
   localStorage.setItem('count', count);
 });
 simply.on('singleClick', 'down', function(e) {
   // simply.subtitle('You pressed the ' + e.button + ' button!');
   if(count > 0) {
     count -= 1;
-    simply.title(kek[count]);
+    simply.title(kek[2]);
     localStorage.setItem('count', count);
   }
 });
