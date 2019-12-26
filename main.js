@@ -1,1 +1,3 @@
-simply.title('Lol Kek!');
+simply.on('singleClick', function(e) {
+  simply.subtitle('You pressed the ' + e.button + ' button!');
+});
