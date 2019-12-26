@@ -1,0 +1,1 @@
+simply.title('Lol Kek!');
