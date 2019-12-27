@@ -16,7 +16,7 @@ simply.on('longClick', 'select', function(e) {
   // simply.subtitle('You pressed the ' + e.button + ' button!');
   if(count > 0) {
     count -= 1;
-    simply.title(data[1].title);
+    simply.title(data[1].title + count);
     simply.body(data[1].text);
     localStorage.setItem('count', count);
   }
